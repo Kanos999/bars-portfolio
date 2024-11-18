@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Kane Jackson - Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+        <link href="styles.css" rel="stylesheet" type="text/css"></link>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+        <script type="text/javascript" src="js/jquery-min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+
+    <body>
+        <!-- <div class="header">
+            <a href="https://www.linkedin.com/in/kanejackson2/">LinkedIn</a>
+            <a href="https://github.com/Kanos999">GitHub</a>
+        </div> -->
+
+        <div id="navigationContainer">
+            <div id="navigationItems">
+                <div class="navigationItem" id="menuHome" section="#landingContainer">Home</div>
+                <div class="navigationItem" id="menuAbout" section="#about">About me</div>
+                <div class="navigationItem" id="menuProjects" section="#projects">Projects</div>
+                <div class="navigationItem" id="menuSkills" section="#skills">Skills</div>
+                <div class="navigationItem" id="menuContact" section="#contact">Contact</div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="section" id="landingContainer">
+                <div id="landingTitle"></div><br><!--Hi! I'm <highlight>Kane</highlight><-->
+
+                <div class="subtitle" id="sub1"></div><br>
+                <div class="subtitle" id="sub2"></div>
+            </div>
+
+            <div class="panel section white" id="about">
+                <h1 id="aboutTitle" text="About me">> </h1>
+                I am a student at the University of New South Wales, pursuing a dual degree in Mechatronics and Computer Science. I am deeply fascinated by the world of coding and robotics, and I love to explore the possibilities of technology through innovation and creativity.
+                <p>Apart from my academic pursuits, I enjoy playing the piano, reading, playing chess, and snowboarding. 
+                Additionally, I am captivated by space and the extraordinary accomplishments exhibited in the aerospace industry, and I wish to contribute to the space industry in the future.</p>
+            </div>
+
+            <div class="panel section" id="projects">
+                <h1 id="projectsTitle" text="Projects">> </h1>
+                <div class="projectsContainer">
+                    <div class="project background-innersteps"><p class="projectTitleText"> InnerSteps </p></div>
+                    <div class="project background-valet"><p class="projectTitleText"> Click and Collect Valet </p></div>
+                    <div class="project background-paddles"><p class="projectTitleText"> Paddles </p></div>
+                    <div class="project background-pingpong"><p class="projectTitleText"> Computer Vision </p></div>
+                    <div class="project background-sdd"><p class="projectTitleText"> Project management tool </p></div>
+                    <div class="project background-asteroids"><p class="projectTitleText"> Multiplayer Asteroids </p></div>
+                    <div class="project background-stockman"><p class="projectTitleText"> Stockman </p></div>
+                </div>
+            </div>
+
+            <div class="panel section" id="skills" style="margin-top: 0;">
+                <h1 id="skillsTitle" text="Skills">> </h1>
+                <div class="skillsContainer">
+                    <p class="skillsText">
+                        I'll keep this brief - I possess a range of professional skills that enable me to solve problems effectively. 
+                        I excel at collaborating with other members of a development team and am 
+                        an effective communicator. I keep myself updated with the latest trends and technologies in the field, and am
+                        quick to learn new frameworks and technologies that pique my interest. 
+                        </p>
+                    <span class="skillsCloud"></span>
+                </div>
+            </div>
+
+            <div class="panel section white" id="contact">
+                <h1 id="contactTitle" text="Get in touch!">> </h1>
+                <div class="contactContainer">
+                    <form id="contact-form">
+                        <input type="hidden" name="contact_number" class="textInput">
+                        <label>Name</label>
+                        <input type="text" name="user_name" class="textInput">
+                        <label>Email</label>
+                        <input type="email" name="user_email" class="textInput">
+                        <label>Message</label>
+                        <textarea name="message" class="textInput"></textarea>
+                        <input type="submit" value="Send" id="submitButton">
+                    </form>
+                    <div class="divider">OR</div>
+                    <div id="socials"></div>
+                </div>
+            </div>
+
+            <div id="footer"></div>
+        </div>
+    </body>
+</html>
