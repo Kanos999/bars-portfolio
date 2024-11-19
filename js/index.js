@@ -14,12 +14,12 @@ $( document ).ready(function() {
 				window.location.replace("./mobile/index.html");
 			}
 
-	typeWriter("#landingTitle", "Hi! I'm Kane", 80);
+	typeWriter("#landingTitle", "Hi! I'm Mahith!", 80);
 	setTimeout(function() {
 		typeWriter("#sub1", "// I like to do stuff and make things", 40);
 	}, 1500);
 	setTimeout(function() {
-		typeWriter("#sub2", "// Mechatronics / Computer Science, UNSW", 40);
+		typeWriter("#sub2", "// Aerospace Engineering, UNSW", 40);
 	}, 3500);
 
 	let titlesLoaded = {
@@ -30,7 +30,7 @@ $( document ).ready(function() {
 		},
 		projects: {
 			loaded: false,
-			text: "Projects / Portfolio",
+			text: "Projects",
 			selector: "#projectsTitle"
 		},
 		skills: {
